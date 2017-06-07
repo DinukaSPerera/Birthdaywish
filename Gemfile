@@ -12,7 +12,7 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'bootstrap-sass', '~> 3.3.4.1'
 gem 'coffee-script-source', '1.8.0'
 gem 'jbuilder', '~> 2.0'
-gem 'paperclip', '~> 5.1'
+gem 'paperclip', '~> 4.3.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
