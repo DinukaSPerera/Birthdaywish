@@ -1,0 +1,18 @@
+<div class="col-md-6 col-md-offset-3">
+
+	<div class="edit-book-form">
+
+		<h1>Edit Wish</h1>
+
+			<%= simple_form_for @book, :html => { :multipart => true } do |f| %>
+				<p>Upload a picture of you two</p>
+				<%= f.file_field :book_img, label: "Add picture of you and tarushi" %>
+				<%= f.input :title, label: "Add a cool title" %>
+				<%= f.input :description, label: "Say something to Tarushi"%>
+				<%= f.input :author, label: "Your name?" %>
+				<%= f.button :submit, :class => 'btn-custom2'%>
+			<% end %>
+
+	</div>
+
+</div>
