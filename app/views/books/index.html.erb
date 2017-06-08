@@ -1,6 +1,14 @@
+<div class= "signup">
+	<% if user_signed_in? %>
+	<h3>Wishes:</h3>
+<%else%>
+	<h3>Sign up to add a wish</h3>
+<%end%>
 <% if @books.count == 0 %>
 	<h1>There are no wishes yet</h1>
 <% else %>	
+</div>
+
 	<div class="row">
 		<% @books.each do |book| %>
 			<div class="col-md-3">
